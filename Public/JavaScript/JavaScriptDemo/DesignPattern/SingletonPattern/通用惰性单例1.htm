@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<button id="loginBtn">登录</button>
+<script type="text/javascript">
+	// 逻辑管理 (实现单例的逻辑)
+	var getSingle = function (fn) {
+		var result;
+		return function(){
+			return result || (result = fn.apply(this,arguments));
+		}
+	};
+
+	// 初始化 ()
+	var createLoginLayer = function(){
+		var div = document.createElement('div');
+		div.innerHTML = '我是登录浮窗';
+		div.style.display = 'none';
+		document.body.appendChild(div);
+		return div;
+	};
+
+	// 初始化逻辑
+	var createSingleLoginLayer = getSingle(createLoginLayer);
+	
+
+	// 事件
+	document.getElementById('loginBtn').onclick = function(){
+		var loginLayer = createSingleLoginLayer();
+		loginLayer.style.display= 'block';
+	};
+
+	// 初始化逻辑
+	var createSingleframe = getSingle(
+
+		// 初始化
+		function(){
+		var iframe = document.createElement('iframe');
+		document.body.appendChild(iframe);
+		return iframe;
+	});
+
+	// 事件
+	document.getElementById('loginBtn').onclick = function(){
+		var loginLayer = createSingleframe();
+		loginLayer.src = 'https://www.google.com.hk/';
+	}
+	</script>
+</body>
+</html>

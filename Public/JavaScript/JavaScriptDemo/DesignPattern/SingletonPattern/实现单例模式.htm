@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>实现单例模式</title>
+<!-- 	<script type="text/javascript">
+		// 创建自定义类.创建对象.组合使用构造函数模式和原型模式【函数表达式.函数赋值表达式】
+		var Singleton = function(name){
+			this.name = name;
+			this.instance = null;
+		};
+
+		Singleton.prototype.getName = function() {
+			alert(this.name);
+		};
+
+		Singleton.getInstance = function(name){
+
+			if (!this.instance){
+				this.instance = new Singleton(name);
+			}
+
+			return this.instance;
+
+		};
+
+		var a = Singleton.getInstance('A');
+		var b = Singleton.getInstance('B');
+		alert(a.name);
+		alert(b.name);
+		alert(a===b);
+	</script> -->
+	<script type="text/javascript">
+		var Singleton = function(name){
+			this.name = name;
+			// this.instance = null;
+		};
+
+		Singleton.prototype.getName = function() {
+			alert(this.name);
+		};
+		// 使用自执行匿名函数的作用【1.避免数据污染2.执行完就销毁，避免内存长驻】
+		Singleton.getInstance = (function(){
+			var instance = null
+			return function(name){
+				if (!this.instance){
+					this.instance = new Singleton(name);
+				}
+
+				return this.instance;
+				}
+		})();
+
+		var a = Singleton.getInstance('A');
+		var b = Singleton.getInstance('B');
+		alert(a.name);
+		alert(b.name);
+		alert(a===b);
+	</script>
+</head>
+<body>
+
+</body>
+</html>

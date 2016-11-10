@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Creating Objects Example</title>
+<!--     <script type="text/javascript">
+        /* 创建一个名为person的对象 
+         * 并未它田间三个属性(name、age和job)
+         * 为这个对象创建一个方法(sayName())
+         * sayName()方法用于显示this.name(将被解析为person.name)的值
+         */
+        var person = new Object();
+        person.name = "Nicholas";
+        person.age = 29;
+        person.job = "Software Engineer";
+        person.sayName = function(){
+            alert(this.name);
+        };
+        
+        person.sayName();
+
+    </script> -->
+</head>
+<body>
+<p>创建自定义对象最简单的方法是创建一个Object实例，然后再为它添加属性和方法</p>
+<p>早期的JavaScript经常使用这个模式创建新对象。几年后，对象字面量成为创建这种对象的首选模式</p>
+<script type="text/javascript">
+// 该例使用对象字面量模式创建对象
+	var person = {
+		name: "Nicholas",
+		age: 29,
+		job: "Software Engineer",
+
+		sayName: function(){
+			alert(this.name);
+		}
+	};   // 别忘记末尾的分号
+	person.sayName();
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/*---------------------Button---------------------*/
+/*---------------------Button1---------------------*/
+/*按钮基本样式*/
+.cssleaves-button1{
+	display: inline-block;
+	background: #FFFFFF;
+	border: 1px solid #666;
+	padding: 0.2em 0.5em;
+	font-size: 0.8em;
+	color: #222;
+	text-align: center;
+	/*以下为css3的规则*/
+	border-radius:5px;		/*圆角*/
+	box-shadow: 1px 1px 1px #CCCCCC;	/*阴影*/
+}
+/*鼠标移动到按钮时的样式*/
+.cssleaves-button1:hover{
+	/*background-color: #F1F1F1;*/
+	/*opacity: 0.7;*/
+	background-color: rgba(105,105,105,0.1); /*IE9、标准浏览器、IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂 */
+	cursor: pointer;	/*点击时的鼠标样式*/
+	
+}
+/*鼠标点击时按钮的样式*/
+.css-rain-button1 :active {
+	color:#333;	/* 鼠标点击时字体颜色*/
+	background: #FFFFFF;
+}
+/* 未访问链接*/
+.cssleaves-button1 :link {
+	color:#444; 
+	background: #FFFFFF;
+}
+/* 已访问链接 */    
+.cssleaves-button1 :visited {
+	color:#666;
+}
+/*---------------------Button2---------------------*/
+/*按钮基本样式*/
+.cssleaves-button2{
+	display: inline-block;
+	background: #FFFFFF;
+	border: 1px solid #999;
+	padding: 0.2em 0.5em;
+	font-size: 0.8em;
+	color: #222;
+	text-align: center;
+	/*以下为css3的规则*/
+	border-radius:5px;		/*圆角*/
+}
+.cssleaves-button2 a{
+}
+/*鼠标移动到按钮时的样式*/
+.cssleaves-button2:hover{
+	cursor: pointer;	/*点击时的鼠标样式*/
+	font-weight: 500;
+	/*以下为css3的规则*/
+	box-shadow: 1px 1px 1px #999999;	/*阴影*/
+}
+/*鼠标点击时按钮的样式*/
+.css-rain-button2 :active {
+	color:#333;	/* 鼠标点击时字体颜色*/
+	background: #FFFFFF;
+}
+/* 未访问链接*/
+.cssleaves-button2 :link {
+	color:#444; 
+	background: #FFFFFF;
+}
+/* 已访问链接 */    
+.cssleaves-button2 :visited {
+	color:#666;
+}
+.cssleaves-table2 tr.alt td 
+{
+	color:#000000;
+	background-color:#EAF2D3;
+}

@@ -1,0 +1,334 @@
+/*---------------------Table---------------------*/
+/*---------------------table1--------------------*/
+.cssleaves-table1 {
+	border-collapse:collapse;	/*表格显示为单线条边框*/
+	/*border-spacing:10px 50px;		相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+}
+.cssleaves-table1,th, td
+{
+	border: 1px solid #E5E5E5;
+	font-size: 0.8em;
+}
+.cssleaves-table1 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 6px 8px;
+	color: #666;
+	background: #FFFFFF;
+}
+.cssleaves-table1 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}
+/*---------------------table2--------------------*/
+.cssleaves-table2 {
+	border-collapse:collapse;	/*表格显示为单线条边框*/
+	/*border-spacing:10px 50px;		相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+}
+.cssleaves-table2,th, td
+{
+	border: 1px solid #E5E5E5;
+	font-size: 0.8em;
+}
+.cssleaves-table2 th{
+	background: #F1F1F1;
+}
+.cssleaves-table2 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 6px 8px;
+	color: #666;
+}
+.cssleaves-table2 tr:nth-child(2n-2){		/*设置 列表2n-2行的背景颜色*/
+	background: #F1F1F1;
+}
+.cssleaves-table2 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}
+/*---------------------table3--------------------*/
+
+.cssleaves-table3 {
+	border-collapse: collapse;	/*表格显示为单线条边框*/
+	/*border-spacing:10px 50px;		相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+
+}
+.cssleaves-table3,th, td
+{
+	font-size: 0.8em;
+	border: none;
+}
+.cssleaves-table3 th{
+	background: #F1F1F1;	
+}
+.cssleaves-table3 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 6px 8px;
+	border-right: none;
+	/*border-bottom: 1px solid #6678b1;*/
+	color: #666;
+}
+.cssleaves-table3 tbody tr:hover{
+	background: #F1F1F1;
+}
+.cssleaves-table3 tr:nth-child(2n-2){		/*设置 列表2n-2行的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table3 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}
+
+/*---------------------table4--------------------*/
+
+.cssleaves-table4 {
+	border-collapse: separate;	/*表格显示为单线条边框*/
+	border-spacing:55px 5px;		/*相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+
+}
+.cssleaves-table4,th, td
+{
+	font-size: 0.8em;
+	border: none;
+}
+.cssleaves-table4 th{
+	/*background: #F1F1F1;	*/
+	border-bottom: 2px solid #111;
+}
+.cssleaves-table4 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 2px 2px;
+	border-right: none;
+	/*border-bottom: 1px solid #6678b1;*/
+	color: #666;
+}
+.cssleaves-table4 tbody tr:hover{
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table4 tr:nth-child(2n-2){		/*设置 列表2n-2行的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table4 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}
+
+/*---------------------table5--------------------*/
+
+.cssleaves-table5 {
+	border-collapse: collapse;	/*表格显示为单线条边框*/
+	/*border-spacing: 75px 5px;*/		/*相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+
+}
+.cssleaves-table5,th, td
+{
+	font-size: 0.8em;
+	border: none;
+}
+.cssleaves-table5 th{
+	/*background: #F1F1F1;	*/
+	border-bottom: 2px solid #111;
+}
+.cssleaves-table5 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 6px 24px;
+	border-right: none;
+	border-bottom: 1px solid #CCC;
+	color: #666;
+}
+.cssleaves-table5 tbody tr:hover{
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table5 tr:nth-child(2n-2){		/*设置 列表2n-2行的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table5 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}
+/*---------------------table6--------------------*/
+
+.cssleaves-table6 {
+	border-collapse: collapse;	/*表格显示为单线条边框*/
+	/*border-spacing: 75px 5px;*/		/*相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+
+
+}
+.cssleaves-table6,th, td
+{
+	font-size: 0.8em;
+	border: none;
+	
+}
+.cssleaves-table6 th{
+	/*background: #F1F1F1;	*/
+	border-bottom: 2px solid #111;
+
+}
+.cssleaves-table6 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 6px 24px;
+	border-right: none;
+	border-bottom: 1px solid #CCC;
+	color: #666;
+	/*设置表格背景*/
+	/*background: url('images/bg-1.gif');*/
+}
+.cssleaves-table6 tbody tr:hover{
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table6 tr:nth-child(2n-2){		/*设置 列表2n-2行的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table6 td:nth-child(1){		/*设置 列表2n-2列的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table6 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}
+/*---------------------table7--------------------*/
+
+.cssleaves-table7 {
+	border-collapse: collapse;	/*表格显示为单线条边框*/
+	/*border-spacing: 75px 5px;*/		/*相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+
+
+}
+.cssleaves-table7,th, td
+{
+	font-size: 0.8em;
+	border: none;
+	
+}
+.cssleaves-table7 th{
+	/*background: #F1F1F1;	*/
+	border-bottom: 2px solid #111;
+
+}
+.cssleaves-table7 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 6px 24px;
+	border-right: none;
+	/*border-bottom: 1px solid #CCC;*/
+	color: #666;
+	/*设置表格背景*/
+	/*background: url('images/bg-1.gif');*/
+}
+.cssleaves-table7 tbody tr:hover{
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table7 tr:nth-child(2n-2){		/*设置 列表2n-2行的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table7 td:nth-child(2n-1){		/*设置 列表2n-2列的背景颜色*/
+	background: #F1F1F1;
+}
+.cssleaves-table7 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}
+/*---------------------table8--------------------*/
+
+.cssleaves-table8 {
+	border-collapse: collapse;	/*表格显示为单线条边框*/
+	/*border-spacing: 75px 5px;*/		/*相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+}
+.cssleaves-table8,th, td
+{
+	font-size: 0.8em;
+	border: none;
+	
+}
+.cssleaves-table8 th{
+	/*background: #F1F1F1;	*/
+	border-bottom: 2px solid #111;
+
+}
+.cssleaves-table8 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 6px 24px;
+	border-right: none;
+	border-bottom: 1px solid #CCC;
+	/*设置表格背景*/
+	/*background: url('images/bg-1.gif');*/
+}
+.cssleaves-table8 tbody tr{
+	color: #666;
+}
+.cssleaves-table8 tbody tr:hover{
+	/*background: #F1F1F1;*/	/*设置 鼠标移动到列表时的该行背景色彩*/
+	color: #000;
+	/*font-weight: bold;*/
+}
+.cssleaves-table8 tr:nth-child(2n-2){		/*设置 列表2n-2行的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table8 td:nth-child(1){		/*设置 列表2n-2列的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table8 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}
+
+/*---------------------table9--------------------*/
+
+.cssleaves-table9 {
+	border-collapse: collapse;	/*表格显示为单线条边框*/
+	/*border-spacing: 75px 5px;*/		/*相邻表格之间的距离，设置border-collapse：separate;生效*/
+	table-layout: automatic;	/*表格布局算法。默认由内容决定*/
+}
+.cssleaves-table9,th, td
+{
+	font-size: 0.9em;
+	border: none;
+	
+}
+.cssleaves-table9 th{
+	/*background: #F1F1F1;	*/
+	border-bottom: 2px solid #111;
+
+}
+.cssleaves-table9 td{
+	text-align: center;
+	vertical-align: center;
+	padding: 6px 24px;
+	border-right: none;
+	border-bottom: 1px solid #CCC;
+	/*设置表格背景*/
+	/*background: url('images/bg-1.gif');*/
+}
+.cssleaves-table9 tbody tr{
+	color: #666;
+}
+.cssleaves-table9 tbody tr a{
+	color: #666;
+	font-weight: bold;
+}
+.cssleaves-table9 tbody tr:hover{
+	/*background: #F1F1F1;*/	/*设置 鼠标移动到列表时的该行背景色彩*/
+	background: rgba(128,128,128,0.1);
+	/*opacity: 0.3;*/
+	color: #000;
+	/*font-weight: bold;*/
+}
+.cssleaves-table9 tbody tr a:hover{
+	color: #E81123;
+	/*font-weight: bold;*/
+}
+.cssleaves-table9 tr:nth-child(2n-2){		/*设置 列表2n-2行的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table9 td:nth-child(1){		/*设置 列表2n-2列的背景颜色*/
+	/*background: #F1F1F1;*/
+}
+.cssleaves-table9 caption{
+	caption-side: top;		/*默认把标题放到表格上方。*/
+}

@@ -1,0 +1,48 @@
+
+.works{
+    margin: 20px auto   ; 
+    /*float: left;*/
+    overflow: hidden;
+    width: 69%;
+}
+.wor{
+    float: left;
+    margin: 15px 15px 15px 45px;
+    width: 240px;
+    height: 260px;
+    border: 1px solid #EBEBEB;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #444444;
+
+}
+.wor:hover{
+    box-shadow:0 0 8px #AEAEAE;
+    background: #ffffff;
+}
+.wor img{
+    width: 100%
+}
+.explain{
+    border-top: 1px solid #EBEBEB;
+    width: 80%;
+    margin: 50PX auto
+}
+.note-title{
+    font-size: 1.6em;
+    margin: 15px 15px 0 auto;
+}
+.note-title a{
+    color:#68B318;
+    text-decoration: none;
+}
+.wor p+p{
+    font-size: 0.6em;
+}
+.wor span+span{
+    margin-left: 25px;
+}
+.wor h1{
+    margin: 30px 30px;
+}
