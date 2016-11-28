@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>虚拟代理实现图片预加载</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	var myImage = (function(){
+		var imgNode = document.createElement('img');
+		document.body.appendChild(imgNode);
+
+		return{
+			setSrc: function(src){
+				imgNode.src =src;
+			}
+		}
+	})();
+	myImage.setSrc('https://s3-us-west-1.amazonaws.com/niusnews-imgs/232943_2.jpg');
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>引入代理模式2</title>
+</head>
+<body>
+<script type="text/javascript">
+	var Flower = function(){};
+	var xiaoming = {
+		sendFlower: function(target){
+			var flower = new Flower();
+			target.receiveFlower();
+		}
+	};
+
+	var B = {
+		receiveFlower: function(flower){
+			A.listenGooodMood(function(){	//监听A的好心情
+				A.receiveFlower(flower);
+			});
+		}
+	};
+
+	var A = {
+		receiveFlower: function(flower){
+			alert('收到花' + flower);
+		},
+		listenGooodMood: function(fn){
+			setTimeout(function(){		// 假设5秒之后A的心情变好
+				fn();
+			},5000);
+		}
+	};
+
+	xiaoming.sendFlower(B);
+</script>
+</body>
+</html>

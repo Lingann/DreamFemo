@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/table.css">
     <link type="text/css" rel="stylesheet" href="css/appreciate.css">
     <link type="text/css" rel="stylesheet" href="css/study.css">
+    <link rel="stylesheet" type="text/css" href="css/col.css">
     <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
     <script type="text/javascript" src="js/study.js"></script>
     <title>前端站线</title>
@@ -26,9 +27,46 @@
          </ul>
         </div>
     </header>
+    
     <div class="main ">
-        <div class="col-1">
-            <table>
+      
+        <div class="StudyContainer col-9-12">
+            <div class="col-3">
+                <table class="tab">
+                    <tbody>
+                        <tr>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                        </tr>
+                          <tr>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                        </tr>
+                          <tr>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                        </tr>
+                          <tr>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                            <td class="tab-1"><a href="#">JavaScript</a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        
+        <!-- 笔记 -->
+          <div class="col-1">
+            <table class="table">
                 <tbody>
                     <tr class="first-child">
                         <td>
@@ -36,57 +74,69 @@
                             <p><span>王的盛宴</span>     <span>2016-11-8</span></p>
                         </td>
                     </tr>
-                    <tr><td>
+                    <tr>
+                        <td>
                             <p class="note-title"><a href="#">JavaScript设计模式</a></p>
                             <p><span>王的盛宴</span>     <span>2016-11-8</span></p>
-                        </td></tr>
-                    <tr><td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <p class="note-title"><a href="#">sssd</a></p>
                             <p><span>王的盛宴</span>     <span>2016-4-22</span></p>
-                        </td></tr>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
+        </div> 
+
         </div>
-        <div class="col-2">
-        <ul id="accordion" class="accordion">
-		<li>
-			<div class="link"><i class="fa fa-paint-brush"></i>教程<i class="fa fa-chevron-down"></i></div>
-			<ul class="submenu">
-				<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript">MDN</a></li>
-                <li><a href="http://es6.ruanyifeng.com/#docs/destructuring">ECMAScript6入门</a></li>
-                <li><a href="https://bonsaiden.github.io/JavaScript-Garden/zh/">JavaScript秘密花园</a></li>
-                <li><a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000">廖雪峰JavaScript教程</a></li>
-			</ul>
-		</li>
-		<li>
-			<div class="link"><i class="fa fa-code"></i>社区<i class="fa fa-chevron-down"></i></div>
-			<ul class="submenu">
-				<li><a href="http://div.io/#/welcome">div.io</a></li>
-				<li><a href="http://fex.baidu.com/">FEX</a></li>
-			</ul>
-		</li>
-		<li>
-		      <div class="link"><i class="fa fa-mobile"></i>国外网站<i class="fa fa-chevron-down"></i></div>
-			<ul class="submenu">
-				<li><a href="https://www.smashingmagazine.com/tag/javascript/">smashingmagazine</a></li>
-				<li><a href="https://www.w3.org/">W3C</a></li>
-				<li><a href="http://www.codewars.com/">codewars</a></li>
-			</ul>
-		</li>
-		<li>
-        <div class="link"><i class="fa fa-globe"></i>开源项目<i class="fa fa-chevron-down"></i></div>
-			<ul class="submenu">
-			</ul>
-		</li>
-        <li>
-        <div class="link"><i class="fa fa-globe"></i>公共链接<i class="fa fa-chevron-down"></i></div>
-            <ul class="submenu">
-                <li><a href="http://www.whycss.com/">前端网址导航</a></li>
+
+
+            <!-- 外链 -->
+            <div class="col-2 col-3-12">
+            <ul id="accordion" class="accordion">
+            <li>
+                <div class="link"><i class="fa fa-paint-brush"></i>教程<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript">MDN</a></li>
+                    <li><a href="http://es6.ruanyifeng.com/#docs/destructuring">ECMAScript6入门</a></li>
+                    <li><a href="https://bonsaiden.github.io/JavaScript-Garden/zh/">JavaScript秘密花园</a></li>
+                    <li><a href="http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000">廖雪峰JavaScript教程</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="link"><i class="fa fa-code"></i>社区<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li><a href="http://div.io/#/welcome">div.io</a></li>
+                    <li><a href="http://fex.baidu.com/">FEX</a></li>
+                </ul>
+            </li>
+            <li>
+                  <div class="link"><i class="fa fa-mobile"></i>国外网站<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li><a href="https://www.smashingmagazine.com/tag/javascript/">smashingmagazine</a></li>
+                    <li><a href="https://www.w3.org/">W3C</a></li>
+                    <li><a href="http://www.codewars.com/">codewars</a></li>
+                </ul>
+            </li>
+            <li>
+            <div class="link"><i class="fa fa-globe"></i>开源项目<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                </ul>
+            </li>
+            <li>
+            <div class="link"><i class="fa fa-globe"></i>公共链接<i class="fa fa-chevron-down"></i></div>
+                <ul class="submenu">
+                    <li><a href="http://www.whycss.com/">前端网址导航</a></li>
+                </ul>
+            </li>
             </ul>
-        </li>
-	</ul>
-        </div>
+            </div>
+
     </div>
+
+    
     <footer></footer>
 </body>
 </html>

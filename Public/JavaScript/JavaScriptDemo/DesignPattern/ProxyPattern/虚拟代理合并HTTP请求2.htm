@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>虚拟代理合并HTTP请求</title>
+</head>
+<body>
+<input type="checkbox" id="1"></input>1
+<input type="checkbox" id="2"></input>2
+<input type="checkbox" id="3"></input>3
+<input type="checkbox" id="4"></input>4
+<input type="checkbox" id="5"></input>5
+<input type="checkbox" id="6"></input>6
+<input type="checkbox" id="7"></input>7
+<input type="checkbox" id="8"></input>8
+<input type="checkbox" id="9"></input>9
+
+<script type="text/javascript">
+	/*--------------------本体类----------------------*/
+	var synchronousFile = function(id){
+		console.log('开始同步文件，id为' + id);
+	};
+
+	/*--------------------引入代理函数----------------------*/
+	var proxySynchronousFile = (function(){
+		// 保存一段时间内需要同步的ID
+		var cache = [],	
+		// 定时器
+		timer;
+
+		return function(id){
+			cache.push(id);
+			// 保证不会覆盖已经启动的定时器
+			if(timer){
+				return;
+			}
+			timer = setTimeout(function(){
+				// 2秒后向本体发送需要同步的ID集合
+				synchronousFile(cache.join(','));
+				// 清空定时器
+				clearTimeout(timer);
+				timer = null;
+				// 清空ID集合
+				cache.length = 0;
+			},2000);
+		}
+	})();
+
+	/*--------------------事件---------------------*/
+		var checkbox = document.getElementsByTagName('input');
+
+		for(var i = 0,c;c = checkbox[i++];){
+			c.onclick = function(){
+				if (this.checked === true){
+					proxySynchronousFile(this.id);
+				}
+			}
+		};
+
+</script>
+</body>
+</html>

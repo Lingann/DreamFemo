@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>虚拟代理实现图片预加载2</title>
+</head>
+<body>
+<script type="text/javascript">
+	var myImage = (function(){
+		var imgNode = document.createElement('img');
+		document.body.appendChild(imgNode);
+	
+		return{
+			setSrc: function(src){
+				imgNode.src = src;
+			}
+		}
+	})();
+
+	var proxyImage = (function(){
+		var img = new Image;
+		img.onload = function(){
+			myImage.setSrc(this.src);
+		}
+		return{
+			setSrc: function(src){
+				myImage.setSrc('1.jpg');
+				img.src = src;
+			}
+		}
+	})();
+	proxyImage.setSrc('https://s3-us-west-1.amazonaws.com/niusnews-imgs/232943_2.jpg');
+</script>
+</body>
+</html>

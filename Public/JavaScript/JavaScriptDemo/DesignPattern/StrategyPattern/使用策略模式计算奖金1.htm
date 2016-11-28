@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>使用策略模式计算奖金1</title>
+</head>
+<body>
+<script type="text/javascript">
+	// 最初的代码实现
+	var calcuateBonus = function( preformanceLevel,salary){
+		if (preformanceLevel === 'S'){
+			return salary*4;
+		}
+		if(preformanceLevel === 'A'){
+			return salary*2;
+		}
+		if (preformanceLevel === 'B') {
+			return salary * 2;
+		}
+	};
+	calcuateBonus('B',20000);
+	calcuateBonus('S',6000);
+</script>
+</body>
+</html>

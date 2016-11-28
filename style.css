@@ -7,9 +7,9 @@ body
 {
 	
 
-	/*设置字体基本属性*/
-	font-family: Arial,Verdana, "Microsoft YaHei New", "Microsoft Yahei", 微软雅黑, 宋体, SimSun, STXihei, 华文细黑, sans-serif; /*字体选择*/	
+	/*设置字体基本属性*/font-family: Arial,Verdana, "Microsoft YaHei New", "Microsoft Yahei", 微软雅黑, 宋体, SimSun, STXihei, 华文细黑, sans-serif; /*字体选择*/	
 	font-size: 16px;			/*字体大小*/			
+	
 	font-style: normal;         /*字体属性*/
 	font-variant: normal;       /*字体变形*/
 	font-weight: 400;           /*字体粗细，400为正常*/
