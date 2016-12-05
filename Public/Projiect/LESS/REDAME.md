@@ -65,9 +65,9 @@ lessc %1 > %~n1.css
 
 
 ### 参考
-- [Less官方参考手册](http://less.bootcss.com/)
-- [在前端使用和编译LESS——冰翼博客](https://icewing.cc/less-to-contextmenu.html)
-- [Less介绍及与Sass的差异——菜鸟教程](http://www.w3cplus.com/css/an-introduction-to-less-and-comparison-to-sass.html)
-- [LESS编写技巧分享，快乐编写CSS——轩枫阁](http://www.xuanfengge.com/less-writing-skills-sharing-happy-to-write-css.html)
-- [Less is More](https://github.com/Urinx/SomeCodes/tree/master/Web/less.demo)
-- [Sublime Text 3 LESS、SASS、SCSS高亮插件、提示插件](http://www.qdfuns.com/notes/24473/e8ff9935aac562c07f634c080d1cb787:storey-3.html)
+* [Less官方参考手册](http://less.bootcss.com/)
+* [在前端使用和编译LESS——冰翼博客](https://icewing.cc/less-to-contextmenu.html)
+* [Less介绍及与Sass的差异——菜鸟教程](http://www.w3cplus.com/css/an-introduction-to-less-and-comparison-to-sass.html)
+* [LESS编写技巧分享，快乐编写CSS——轩枫阁](http://www.xuanfengge.com/less-writing-skills-sharing-happy-to-write-css.html)
+* [Less is More](https://github.com/Urinx/SomeCodes/tree/master/Web/less.demo)
+* [Sublime Text 3 LESS、SASS、SCSS高亮插件、提示插件](http://www.qdfuns.com/notes/24473/e8ff9935aac562c07f634c080d1cb787:storey-3.html)
