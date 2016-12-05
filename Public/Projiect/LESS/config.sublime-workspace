@@ -1,0 +1,658 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-s",
+				"border-spacing"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"col",
+				"col-9-12"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"F",
+				"F7F7F7"
+			],
+			[
+				"bao",
+				"background"
+			],
+			[
+				"it",
+				"iterator2"
+			],
+			[
+				"iterator1",
+				"iterator1和iterator2不相等"
+			],
+			[
+				"iter",
+				"iterator1"
+			],
+			[
+				"get",
+				"getCurrItem"
+			],
+			[
+				"a",
+				"ary2"
+			],
+			[
+				"ary",
+				"ary2"
+			],
+			[
+				"ar",
+				"ary2"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"pr",
+				"proxyMult"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"pro",
+				"proxySynchronousFile"
+			],
+			[
+				"c",
+				"checkbox"
+			],
+			[
+				"img",
+				"imgNode"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"va",
+				"validataFunc"
+			],
+			[
+				"str",
+				"strategy"
+			],
+			[
+				"val",
+				"validataFunc"
+			],
+			[
+				"stra",
+				"strategy"
+			],
+			[
+				"is",
+				"isMobile"
+			],
+			[
+				"regi",
+				"registerForm"
+			],
+			[
+				"d",
+				"duration"
+			],
+			[
+				"perf",
+				"performancesA"
+			],
+			[
+				"per",
+				"performancesS"
+			],
+			[
+				"set",
+				"setSalary"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"create",
+				"createSingleLoginLayer"
+			],
+			[
+				"login",
+				"loginLayer"
+			],
+			[
+				"crea",
+				"createLoginLayer"
+			],
+			[
+				"st",
+				"study"
+			],
+			[
+				"o",
+				"object1"
+			],
+			[
+				"P",
+				"Prototype"
+			],
+			[
+				"de",
+				"defineProperty"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"css",
+				"cssleaves"
+			],
+			[
+				"r",
+				"rgb()"
+			],
+			[
+				"border-b",
+				"border-bottom-color"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"WI",
+				"width"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"cs",
+				"cssrain"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"wo",
+				"word-spacing"
+			],
+			[
+				"font-",
+				"font-variant"
+			],
+			[
+				"fo",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config.sublime-project",
+			"settings":
+			{
+				"buffer_size": 148,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/less/main.less",
+			"settings":
+			{
+				"buffer_size": 55,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "main.less"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git clone git://github.com/danro/LESS-sublime.git LESS",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp =   sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp =   sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())】",
+			"\t",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.j",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/MyProject/DreamFemo/Public/Projiect/LESS",
+		"/D/MyProject/DreamFemo/Public/Projiect/LESS/src",
+		"/D/MyProject/DreamFemo/Public/Projiect/LESS/src/less"
+	],
+	"file_history":
+	[
+		"/C/Users/MrWang/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/MrWang/AppData/Roaming/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/C/Users/MrWang/AppData/Roaming/Sublime Text 3/Packages/User/LESS.sublime-settings",
+		"/C/Users/MrWang/AppData/Roaming/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/REDAME.md",
+		"/D/微云同步盘/317823141/项目开发/Normalize/FolderStructure/Web/src/css/Layout/layout.css",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/bundle.js",
+		"/D/微云同步盘/317823141/项目开发/Normalize/FolderStructure/Web/src/css/Layout/index.css",
+		"/D/微云同步盘/317823141/项目开发/Normalize/FolderStructure/webpack-app/REDAME.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/package.json",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/.gitignore",
+		"/D/微云同步盘/317823141/查阅空间/前端/web开发目录结构范例/demo-complete-0.1/html/css/style.css",
+		"/D/微云同步盘/317823141/项目开发/Normalize/FolderStructure/Web/src/css/Public/REDAME.md",
+		"/D/微云同步盘/317823141/项目开发/Normalize/FolderStructure/Web/src/css/Base/normalize.css",
+		"/D/微云同步盘/317823141/项目开发/Normalize/FolderStructure/Web/src/css/Base/global.css",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/React/reactApp/index.html",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/webpack-config.js",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/React/reactApp/package.json",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/style.css",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/entry.js",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/index.html",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/React/reactApp/App.jsx",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/React/reactApp/main.js",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/React/package.json",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/React/reactApp/webpack.config.js",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/React/reactApp/node_modules/react-dom/lib/setInnerHTML.js",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/React/reactApp/npm-debug.log",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/LESS/LESS使用测试.less",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/LESS/test.less",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/LESS/index.html",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/reactApp/package.json",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Webpack/react-demos/demo02/index.html",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/LESS/test.css",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/debug.log",
+		"/C/Users/MrWang/AppData/Roaming/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/D/微云同步盘/317823141/学习空间/电子书籍文档/前端书籍/前端教程/JavaScript/jQuery/JQuery技术/jQ学习第一季/demo17-ajax加载一个远程页面/链接点击--淡出 .html",
+		"/D/微云同步盘/317823141/学习空间/电子书籍文档/前端书籍/前端教程/JavaScript/jQuery/JQuery技术/jQ学习第一季/demo17-ajax加载一个远程页面/按钮点击--立即显示 .html",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/js/study.js",
+		"/D/微云同步盘/317823141/学习空间/电子书籍文档/前端书籍/前端教程/JavaScript/jQuery/JQuery技术/jQ学习第一季/demo17-ajax加载一个远程页面/mailtoInfo.html",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/js/jquery-1.12.1.min.js",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Effects/animation/粒子.htm",
+		"/C/Users/MrWang/Desktop/html5-mario/index.html",
+		"/D/微云同步盘/317823141/项目开发/Normalize/Color/font.html",
+		"/D/微云同步盘/317823141/项目开发/Normalize/Color/style/font.css",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/style.css",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/study.html",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/css/col.css",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/css/study.css",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/_config.yml",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Effects/animation/JavaScript和css动画.md",
+		"/C/Program Files/Git/mingw64/etc/gitconfig",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Projiect/Demo1/jsStudy/app/index.html",
+		"/C/Users/MrWang/Desktop/CSS样式表/DIV+CSS 全屏垂直居中的一个办法/Untitled-7.html",
+		"/D/微云同步盘/317823141/学习空间/电子书籍文档/IT类/rdw-code-examples-master/rdw-code-examples-master/ch05-linear-design/index.md",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/JavaScript迭代器模式.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/cssleaves/css/menu.css",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/cssleaves.html",
+		"/C/Users/MrWang/Desktop/CSS样式表/无图片实现圆角框/Untitled-7.html",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/JavaScript单例模式.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/IteratorPattren/内部迭代器.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/IteratorPattren/外部迭代器.htm",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/循环、遍历、迭代、递归、回调.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/IteratorPattren/实现自己的迭代器.htm",
+		"/D/微云同步盘/317823141/查阅空间/前端/web开发目录结构范例/demo-complete-0.1/theme/common/blocks/block_slide.ctp",
+		"/C/Users/MrWang/Desktop/CSS样式表/类似QQ首页的无刷新换肤切换样式/类似QQ首页的无刷新换肤切换样式.html",
+		"/C/Users/MrWang/Desktop/后台界面/1249563374_71050268/admin_template/index.html",
+		"/C/Users/MrWang/Desktop/hkpt6.yingsuo.wang.json",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/虚拟代理合并HTTP请求2.htm",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/JavaScript代理模式.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Books/JavaScript设计模式与开发实践/JavaScript设计模式与开发实践-源代码/6/6.html",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/虚拟代理实现图片预加载.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/Books/JavaScript设计模式与开发实践/JavaScript设计模式与开发实践-源代码/6/虚拟代理实现图片预加载.htm",
+		"/C/Drcom/DrUpdateClient/1409107007/1409107007",
+		"/C/Drcom/DrUpdateClient/WebSiteModule.dll",
+		"/C/Drcom/DrUpdateClient/DrLinkConfigure",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/不使用代理模式.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/引入代理模式.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/虚拟代理合并HTTP请求.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/缓存代理.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/用高阶函数动态创建代理.htm",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/layout-JavaScript代理模式.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/虚拟代理合并HTTP请求3.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/虚拟代理在惰性加载中的应用.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/虚拟代理实现图片预加载2.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/ProxyPattern/引入代理模式2.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/StrategyPattern/策略模式重构表单验证.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/StrategyPattern/使用策略模式计算奖金3.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/StrategyPattern/JavaScript版本的策略模式.htm",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/JavaScript策略模式.md",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/_config.yml",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/scaffolds/page.md",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/scaffolds/draft.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/StrategyPattern/策略模式表单验证3.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/StrategyPattern/使用策略模式实现缓动动画.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/SingletonPattern/通用惰性单例1.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/StrategyPattern/表单验证.htm",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/music.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/StrategyPattern/使用策略模式计算奖金1.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/StrategyPattern/使用策略模式计算奖金2.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/SingletonPattern/惰性单例3.htm",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/Public/JavaScript/JavaScriptDemo/DesignPattern/SingletonPattern/惰性单例2.htm",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/hello-world.md",
+		"/C/Users/MrWang/Desktop/新建文件夹/DreamFemo/cssleaves/css/table.css",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/tag.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/post.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/source/styles/sidebar.styl",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/public/categories/index.html",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/_posts/呵呵呵呵.md",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/sidebar.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/post-list.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/l-list.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/post/tag.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/pagination.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/index.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/layout.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/archive.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/category.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/source/styles/archive.styl",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/list.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/next-master/layout/tag.swig",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/categories/index.md",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/source/tags/index.md",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/baidu-statistics.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/scripts.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/landscape/layout/_partial/archive.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/landscape/layout/_partial/archive-post.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/landscape/layout/tag.ejs",
+		"/D/微云同步盘/317823141/王令安/个人项目/lingann/themes/chan/layout/_partials/head.ejs"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			"1",
+			"\n<",
+			"htm",
+			"property",
+			"function SubType()",
+			"\n<",
+			"i>",
+			".cssrain",
+			"#menu",
+			"cssrain",
+			"border",
+			"border: none;",
+			"\"></",
+			"google.com.hk",
+			"google.com.sg",
+			"google.com.hk"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"li>",
+			".cssleaves",
+			".cssleaves-dropdown-menu1",
+			".cssrain-dropdown-menu1",
+			"cssleaves",
+			"google.com.sg"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"is_init_dirty_state": false,
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/less/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"auto_name": "main.less",
+							"is_init_dirty_state": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "config.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

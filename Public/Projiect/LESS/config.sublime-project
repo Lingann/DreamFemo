@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "D:\/MyProject\/DreamFemo\/Public\/Projiect\/LESS"
+		}
+	],
+	"setting":
+	{
+		"less2css":
+		{
+			"lessBaseDir": "./src/less",
+			"outputDir": "./dist/css"
+		}
+	}
+}
